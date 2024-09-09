@@ -35,7 +35,7 @@ jobs:
         if: ${{ steps.check_label.outcome == 'success' }}
         uses: vj-abigo/invite-on-label@v1.2
         with:
-          organization: recodehive
+          organization: Jec-Forge
           label: invite me to the community
           repo-token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           comment: |
