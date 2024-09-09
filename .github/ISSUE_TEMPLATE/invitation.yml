@@ -1,0 +1,40 @@
+name: Invitation to the Jec-Forge GitHub Community Organization
+description: I would like to be part of this awesome community
+title: "Please invite me to the Jec-Forge GitHub Community Organization"
+labels: [invite me to the community]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Insert your name here
+    validations:
+      required: true
+  - type: input
+    id: discordname
+    attributes:
+      label: Discord Username (if applicable)
+      placeholder: Insert your Discord username here
+    validations:
+      required: false
+  - type: textarea
+    id: Additional
+    attributes:
+      label: Additional Context
+      description: What do you like about this community/Why do you want to join?
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Feel free to check out other cool repositories of the Jec-Forge Community [here](https://github.com/Jec-Forge)
+
+  - type: checkboxes
+    attributes:
+      label: "Record"
+      options:
+        - label: "Yes, I am from JEC."
+          required: true
+        - label: "I complete my Graduation from JEC."
+        - label: "I'm a Web Developer."
+        - label: "I'm a Flutter Developer."
