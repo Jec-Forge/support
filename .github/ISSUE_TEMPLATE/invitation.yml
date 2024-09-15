@@ -34,7 +34,6 @@ body:
       label: "Record"
       options:
         - label: "Yes, I am from JEC."
-          required: true
         - label: "I complete my Graduation from JEC."
         - label: "I'm a Web Developer."
         - label: "I'm a Flutter Developer."
