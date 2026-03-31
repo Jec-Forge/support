@@ -1,7 +1,7 @@
 name: Invitation to the Jec-Forge GitHub Community Organization
 description: I would like to be part of this awesome community
 title: "Please invite me to the Jec-Forge GitHub Community Organization"
-labels: [invite me to the community]
+labels: [invite me to the community to Jec-Forge]
 body:
   - type: input
     id: name
